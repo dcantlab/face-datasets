@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+
+# original images directory
+imgs-source/unsplash/*

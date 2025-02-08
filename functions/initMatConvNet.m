@@ -1,0 +1,11 @@
+function path = initMatConvNet(path)
+	if ~strncmp(computer('arch'), 'maca', 4)  % Workaround for Apple silicon macs
+		if ~exist('path', 'var') || isempty(path)
+			path = fullfile(fileparts(mfilename('fullpath')), ...
+				'..', 'libraries', 'matconvnet-1.0-beta25');
+		end
+	
+		run(fullfile(path, 'matlab', 'vl_setupnn'));
+		addpath(fullfile(path, 'examples'));
+	end
+end
