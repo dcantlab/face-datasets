@@ -70,6 +70,10 @@ To generate face-cutout images from CFD:
 	```
 3) Results will be saved in the `imgs-dataset/` directory, along with dataset.xlsx and dataset.mat.
 
+## Citation
+
+Cha, O. (2025). Categorical frequency judgments as effective ensemble judgments for object features. _Scientific Reports_, _15_(1), 10531.
+
 ## Acknowledgments
 
 ### Funding
